@@ -1,0 +1,38 @@
+
+An Array is storage of data
+
+an array is an object that holds a fixed number of homogeneous data type
+if you store int then you cant store string and vice versa 
+
+CANNOT GIVE AN ARRAY A NEGATIVE LENGTH BUT YOU CAN GIVE 0
+IF YOU GIVE 0 A NEGATIVEARRAYSIZEEXCEPTION error will be thrown
+
+
+you cannot give the size during declaration
+
+object array can store multipple data types
+
+variables in the array are orderred 
+indexing inside of an array begin from 0
+they are created at runtime
+
+array is denoted by dimensions
+
+[]- dimension
+[] [] - 2 dimension
+----------------------------
+all of these will work 
+    array declaration
+int[] a;
+int[]a;         //this is the best one 
+int a[];
+int [] a;
+
+
+
+----ADVANTAGES OF ARRAY
+1. stores a lot of data
+2. easily accessible & retrievable 
+3. organized 
+4. efficient compared to others
+
