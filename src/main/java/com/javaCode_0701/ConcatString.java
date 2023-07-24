@@ -21,7 +21,7 @@ public class ConcatString {
 		int hours = 40;
 		int weeks = 4;
 		int months = 12;
-		int hourly = 60;
+		int hourly = 40;
 		
 		char dollasign = '$';
 	  double TheChange = .0;
@@ -45,7 +45,7 @@ public class ConcatString {
 		
 		System.out.println("---------------------------------------------------------------------------");
 		
-		if(str==actualSalary) {
+		if(str.equalsIgnoreCase(actualSalary)) {
 			
 			System.out.println("str is a good formula for " +actualSalary);
 			

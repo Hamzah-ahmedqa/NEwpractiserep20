@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="cssSelectorsJava.Traversing_With_CssSelectors">
+      <class name="automationMovements.Keyboard_Actions">
         <methods>
-          <include name="setUp"/>
-          <include name="ShutDown"/>
-          <include name="clickOnLogin"/>
+          <include name="KeyBoardActions"/>
         </methods>
-      </class> <!-- cssSelectorsJava.Traversing_With_CssSelectors -->
+      </class> <!-- automationMovements.Keyboard_Actions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
