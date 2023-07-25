@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ninja\AppData\Local\Temp\testng-eclipse--949831876\testng-customsuite.xml</span>
+                    <span>C:\Users\ninja\AppData\Local\Temp\testng-eclipse--558843557\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="automationMovements.Keyboard_Actions" class="method navigator-link" hash-for-method="KeyBoardActions">KeyBoardActions</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="dataDrivenTesting.SeperateTestCases" class="method navigator-link" hash-for-method="LoginWithTest1(Therealslimshady4eva1229@gmail.com, IamSecretlyEminem221)">LoginWithTest1(Therealslimshady4eva1229@gmail.com, IamSecretlyEminem221)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dataDrivenTesting.SeperateTestCases" class="method navigator-link" hash-for-method="LoginWithTest1(Therealslimshady4eva1@gmail.com, IamSecretlyEminem221)">LoginWithTest1(Therealslimshady4eva1@gmail.com, IamSecretlyEminem221)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="dataDrivenTesting.SeperateTestCases" class="method navigator-link" hash-for-method="LoginWithTest1(Therealslimshady4eva2@gmail.com, IamSecretlyEminem221)">LoginWithTest1(Therealslimshady4eva2@gmail.com, IamSecretlyEminem221)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +131,31 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">automationMovements.Keyboard_Actions</span>
+              <span class="class-name">dataDrivenTesting.SeperateTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="KeyBoardActions">
-                  </a> <!-- KeyBoardActions -->
-                  <span class="method-name">KeyBoardActions</span>
+                  <a name="LoginWithTest1(Therealslimshady4eva1229@gmail.com, IamSecretlyEminem221)">
+                  </a> <!-- LoginWithTest1(Therealslimshady4eva1229@gmail.com, IamSecretlyEminem221) -->
+                  <span class="method-name">LoginWithTest1</span>
+                  <span class="parameters">(Therealslimshady4eva1229@gmail.com,IamSecretlyEminem221)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithTest1(Therealslimshady4eva1@gmail.com, IamSecretlyEminem221)">
+                  </a> <!-- LoginWithTest1(Therealslimshady4eva1@gmail.com, IamSecretlyEminem221) -->
+                  <span class="method-name">LoginWithTest1</span>
+                  <span class="parameters">(Therealslimshady4eva1@gmail.com,IamSecretlyEminem221)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWithTest1(Therealslimshady4eva2@gmail.com, IamSecretlyEminem221)">
+                  </a> <!-- LoginWithTest1(Therealslimshady4eva2@gmail.com, IamSecretlyEminem221) -->
+                  <span class="method-name">LoginWithTest1</span>
+                  <span class="parameters">(Therealslimshady4eva2@gmail.com,IamSecretlyEminem221)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +163,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ninja\AppData\Local\Temp\testng-eclipse--949831876\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ninja\AppData\Local\Temp\testng-eclipse--558843557\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +172,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;automationMovements.Keyboard_Actions&quot;/&gt;
+      &lt;class name=&quot;dataDrivenTesting.SeperateTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,16 +212,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'KeyBoardActions')
-data.setCell(0, 2, 'automationMovements.Keyboard_Actions')
-data.setCell(0, 3, 11318);
+data.setCell(0, 1, 'LoginWithTest1')
+data.setCell(0, 2, 'dataDrivenTesting.SeperateTestCases')
+data.setCell(0, 3, 7347);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'LoginWithTest1')
+data.setCell(1, 2, 'dataDrivenTesting.SeperateTestCases')
+data.setCell(1, 3, 5890);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginWithTest1')
+data.setCell(2, 2, 'dataDrivenTesting.SeperateTestCases')
+data.setCell(2, 3, 5868);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 19 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,11 +255,43 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">automationMovements.Keyboard_Actions</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">KeyBoardActions</span>
+              <div class="chronological-class-name">dataDrivenTesting.SeperateTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithTest1(Therealslimshady4eva1229@gmail.com, IamSecretlyEminem221)</span>
+                <span class="method-start">14454 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">21809 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">22366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithTest1(Therealslimshady4eva1@gmail.com, IamSecretlyEminem221)</span>
+                <span class="method-start">29515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">35388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">Setup</span>
+                <span class="method-start">35923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginWithTest1(Therealslimshady4eva2@gmail.com, IamSecretlyEminem221)</span>
+                <span class="method-start">42683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ShutDown</span>
+                <span class="method-start">48597 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

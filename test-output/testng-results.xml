@@ -1,17 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-24T17:35:43 EDT" name="Default suite" finished-at="2023-07-24T17:35:55 EDT" duration-ms="11385">
+  <suite started-at="2023-07-25T18:45:14 EDT" name="Default suite" finished-at="2023-07-25T18:46:03 EDT" duration-ms="49199">
     <groups>
     </groups>
-    <test started-at="2023-07-24T17:35:43 EDT" name="Default test" finished-at="2023-07-24T17:35:55 EDT" duration-ms="11385">
-      <class name="automationMovements.Keyboard_Actions">
-        <test-method signature="KeyBoardActions()[pri:0, instance:automationMovements.Keyboard_Actions@196a42c3]" started-at="2023-07-24T17:35:44 EDT" name="KeyBoardActions" finished-at="2023-07-24T17:35:55 EDT" duration-ms="11318" status="PASS">
+    <test started-at="2023-07-25T18:45:14 EDT" name="Default test" finished-at="2023-07-25T18:46:03 EDT" duration-ms="49199">
+      <class name="dataDrivenTesting.SeperateTestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:14 EDT" name="Setup" finished-at="2023-07-25T18:45:28 EDT" duration-ms="14438" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- KeyBoardActions -->
-      </class> <!-- automationMovements.Keyboard_Actions -->
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithTest1(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:28 EDT" name="LoginWithTest1" data-provider="GetNinjaData" finished-at="2023-07-25T18:45:36 EDT" duration-ms="7347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Therealslimshady4eva1229@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IamSecretlyEminem221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithTest1 -->
+        <test-method is-config="true" signature="ShutDown()[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:36 EDT" name="ShutDown" finished-at="2023-07-25T18:45:36 EDT" duration-ms="557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:36 EDT" name="Setup" finished-at="2023-07-25T18:45:44 EDT" duration-ms="7149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithTest1(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:44 EDT" name="LoginWithTest1" data-provider="GetNinjaData" finished-at="2023-07-25T18:45:49 EDT" duration-ms="5868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Therealslimshady4eva1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IamSecretlyEminem221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithTest1 -->
+        <test-method is-config="true" signature="ShutDown()[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:49 EDT" name="ShutDown" finished-at="2023-07-25T18:45:50 EDT" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:50 EDT" name="Setup" finished-at="2023-07-25T18:45:57 EDT" duration-ms="6760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithTest1(java.lang.String,java.lang.String)[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:45:57 EDT" name="LoginWithTest1" data-provider="GetNinjaData" finished-at="2023-07-25T18:46:03 EDT" duration-ms="5890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Therealslimshady4eva2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IamSecretlyEminem221]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithTest1 -->
+        <test-method is-config="true" signature="ShutDown()[pri:0, instance:dataDrivenTesting.SeperateTestCases@18271936]" started-at="2023-07-25T18:46:03 EDT" name="ShutDown" finished-at="2023-07-25T18:46:03 EDT" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShutDown -->
+      </class> <!-- dataDrivenTesting.SeperateTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

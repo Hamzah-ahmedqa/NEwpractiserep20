@@ -40,13 +40,13 @@ driver.findElement(By.xpath("//a[@class='signin']/following-sibling::a[contains(
 	
 	driver.findElement(By.xpath("//input[@type='text' and @maxlength = '30'][1]")).sendKeys("JamesWhiteyBulger");       
 		driver.findElement(By.xpath("//input[@value='Check availability']")).click();
-		driver.findElement(By.cssSelector("input#newpasswd")).sendKeys("JAumes@1233Buloger#");
-		driver.findElement(By.cssSelector("input#newpasswd1")).sendKeys("JAumes@1233Buloger#");
+		driver.findElement(By.cssSelector("input#newpasswd")).sendKeys("TheRealJames234#");
+		driver.findElement(By.cssSelector("input#newpasswd1")).sendKeys("TheRealJames234#");
 		driver.findElement(By.xpath("//input[@class='nomargin']")).click();
 		Thread.sleep(2000);
 		select = new Select(driver.findElement(By.xpath("//td[contains(text(),'Select a Security Question')]/following-sibling::td[@colspan='3']/child::select")));
 		select.selectByVisibleText("What is your favourite pass-time?");
-		driver.findElement(By.xpath("//input[@type='password' and @maxlength='30']")).sendKeys("AutoMating and being a mafia boss");
+		driver.findElement(By.xpath("//input[@type='password' and @maxlength='30']")).sendKeys("BeingABoss");
 		driver.findElement(By.xpath("//input[@id='mobno']/preceding::input[@type='text' and @maxlength='30']/following::input[@type='text' and @maxlength='30']")).sendKeys("Madison");
 		driver.findElement(By.cssSelector("input#mobno")).sendKeys("4432750852");
 		
