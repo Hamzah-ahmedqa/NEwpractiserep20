@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenTesting.TutorialsNinja_TestNG">
+      <class name="validationsINTestNG.SoftassertInAutomation">
         <methods>
-          <include name="ShutDown"/>
-          <include name="LoginWithTest1"/>
-          <include name="Setup"/>
+          <include name="verifyPasswordWarningMessage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- dataDrivenTesting.TutorialsNinja_TestNG -->
+      </class> <!-- validationsINTestNG.SoftassertInAutomation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
