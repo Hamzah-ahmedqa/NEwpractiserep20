@@ -1,127 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-26T13:54:37 EDT" name="Default suite" finished-at="2023-07-26T13:56:10 EDT" duration-ms="92588">
+  <suite started-at="2023-07-29T16:14:02 EDT" name="Default suite" finished-at="2023-07-29T16:16:28 EDT" duration-ms="146412">
     <groups>
     </groups>
-    <test started-at="2023-07-26T13:54:37 EDT" name="Default test" finished-at="2023-07-26T13:56:10 EDT" duration-ms="92588">
-      <class name="validationsINTestNG.SoftassertInAutomation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:54:37 EDT" name="setUp" finished-at="2023-07-26T13:54:52 EDT" duration-ms="14542" status="PASS">
+    <test started-at="2023-07-29T16:14:02 EDT" name="Default test" finished-at="2023-07-29T16:16:28 EDT" duration-ms="146412">
+      <class name="com.takingAdvantageOfExcel.TNregisterANdLogin">
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:02 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:14:22 EDT" duration-ms="19706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JamesWhiteyBulgerwh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IamTheRealJames223]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTopPageWarningMessage()[pri:1, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:54:52 EDT" name="verifyTopPageWarningMessage" finished-at="2023-07-26T13:54:57 EDT" duration-ms="5099" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:22 EDT" name="TearDown" finished-at="2023-07-29T16:14:22 EDT" duration-ms="359" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTopPageWarningMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:54:57 EDT" name="tearDown" finished-at="2023-07-26T13:54:57 EDT" duration-ms="444" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:22 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:14:42 EDT" duration-ms="19351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JohnConnoly@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IluvJamesBulg@rx0x0]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:54:57 EDT" name="setUp" finished-at="2023-07-26T13:55:09 EDT" duration-ms="11499" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:42 EDT" name="TearDown" finished-at="2023-07-29T16:14:42 EDT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyFirstNameWarningMessageTest()[pri:2, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:09 EDT" name="verifyFirstNameWarningMessageTest" finished-at="2023-07-26T13:55:14 EDT" duration-ms="5195" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:42 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:14:57 EDT" duration-ms="14836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[therealwinterhillgang@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TheRealHillGang123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyFirstNameWarningMessageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:14 EDT" name="tearDown" finished-at="2023-07-26T13:55:14 EDT" duration-ms="350" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:57 EDT" name="TearDown" finished-at="2023-07-29T16:14:57 EDT" duration-ms="372" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:14 EDT" name="setUp" finished-at="2023-07-26T13:55:26 EDT" duration-ms="11196" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:14:57 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:15:12 EDT" duration-ms="14997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IamDwightSchrute2234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ILuvBeats440]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="lastNameWarningMessage()[pri:3, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:26 EDT" name="lastNameWarningMessage" finished-at="2023-07-26T13:55:31 EDT" duration-ms="5086" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:12 EDT" name="TearDown" finished-at="2023-07-29T16:15:12 EDT" duration-ms="292" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lastNameWarningMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:31 EDT" name="tearDown" finished-at="2023-07-26T13:55:31 EDT" duration-ms="376" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:12 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:15:27 EDT" duration-ms="14850" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JimmyJohnsHallpy@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pamIsmyBae4eva]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:31 EDT" name="setUp" finished-at="2023-07-26T13:55:43 EDT" duration-ms="11564" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:27 EDT" name="TearDown" finished-at="2023-07-29T16:15:28 EDT" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyNinjaEmailWarningMessage()[pri:4, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:43 EDT" name="verifyNinjaEmailWarningMessage" finished-at="2023-07-26T13:55:43 EDT" duration-ms="76" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:28 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:15:42 EDT" duration-ms="14465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IamTheWorldsBestboss@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[IamTheBestBoss]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyNinjaEmailWarningMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:43 EDT" name="tearDown" finished-at="2023-07-26T13:55:43 EDT" duration-ms="382" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:42 EDT" name="TearDown" finished-at="2023-07-29T16:15:42 EDT" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:43 EDT" name="setUp" finished-at="2023-07-26T13:55:53 EDT" duration-ms="10091" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:42 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:15:57 EDT" duration-ms="14759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KevinWeeks123@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WeeksNotWeaks321]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTelephoneWarningMessageTest()[pri:5, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:53 EDT" name="verifyTelephoneWarningMessageTest" finished-at="2023-07-26T13:55:53 EDT" duration-ms="97" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:57 EDT" name="TearDown" finished-at="2023-07-29T16:15:57 EDT" duration-ms="277" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyTelephoneWarningMessageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:53 EDT" name="tearDown" finished-at="2023-07-26T13:55:54 EDT" duration-ms="417" status="PASS">
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:15:57 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:16:12 EDT" duration-ms="14716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PamBeesly@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JimIsmyBea4eva]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:55:54 EDT" name="setUp" finished-at="2023-07-26T13:56:09 EDT" duration-ms="15647" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:16:12 EDT" name="TearDown" finished-at="2023-07-29T16:16:12 EDT" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyPasswordWarningMessage()[pri:6, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:56:09 EDT" name="verifyPasswordWarningMessage" finished-at="2023-07-26T13:56:09 EDT" duration-ms="61" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at validationsINTestNG.SoftassertInAutomation.verifyPasswordWarningMessage(SoftassertInAutomation.java:132)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- TearDown -->
+        <test-method signature="LoginWithExcelSheetInforMation(java.lang.String,java.lang.String)[pri:1, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:16:12 EDT" name="LoginWithExcelSheetInforMation" data-provider="LoginSheetExcel" finished-at="2023-07-29T16:16:28 EDT" duration-ms="15260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SenateBilly@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProudSenate12]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPasswordWarningMessage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:validationsINTestNG.SoftassertInAutomation@1a75e76a]" started-at="2023-07-26T13:56:09 EDT" name="tearDown" finished-at="2023-07-26T13:56:10 EDT" duration-ms="371" status="PASS">
+        </test-method> <!-- LoginWithExcelSheetInforMation -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1]" started-at="2023-07-29T16:16:28 EDT" name="TearDown" finished-at="2023-07-29T16:16:28 EDT" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- validationsINTestNG.SoftassertInAutomation -->
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.takingAdvantageOfExcel.TNregisterANdLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

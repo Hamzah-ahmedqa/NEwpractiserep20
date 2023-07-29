@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name = "browser" value ="edge" />
+<parameter name = "url" value ="http://tutorialsninja.com/demo" />
+<parameter name = "username" value ="Therealslimshady4eva1229@gmail.com" />
+<parameter name = "password" value ="IamSecretlyEminem221" />
+<parameter name = "myAccountButton" value ="//span[contains(text(),'My Account')]" />
+<parameter name = "inputButton" value ="input.btn.btn-primary" />
+
+  <test  name="Test">
+    <classes>
+      <class name="runningTestCasesInBatches.ParameterizedTutorialsNinja"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

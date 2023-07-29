@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Jul 26 13:54:37 EDT 2023</td>
+<td>Started on:</td><td>Sat Jul 29 16:14:02 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>92 seconds (92588 ms)</td>
+<tr><td>Total time:</td><td>146 seconds (146412 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,87 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='validationsINTestNG.SoftassertInAutomation.verifyPasswordWarningMessage()'><b>verifyPasswordWarningMessage</b><br>Test class: validationsINTestNG.SoftassertInAutomation</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at validationsINTestNG.SoftassertInAutomation.verifyPasswordWarningMessage(SoftassertInAutomation.java:132)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace970890202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace970890202'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [true] but found [false]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at validationsINTestNG.SoftassertInAutomation.verifyPasswordWarningMessage(SoftassertInAutomation.java:132)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>0</td>
-<td>validationsINTestNG.SoftassertInAutomation@1a75e76a</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -157,30 +76,50 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='validationsINTestNG.SoftassertInAutomation.verifyFirstNameWarningMessageTest()'><b>verifyFirstNameWarningMessageTest</b><br>Test class: validationsINTestNG.SoftassertInAutomation</td>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: JohnConnoly@yahoo.com, IluvJamesBulg@rx0x0</td>
 <td></td>
-<td>5</td>
-<td>validationsINTestNG.SoftassertInAutomation@1a75e76a</td></tr>
+<td>19</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
 <tr>
-<td title='validationsINTestNG.SoftassertInAutomation.lastNameWarningMessage()'><b>lastNameWarningMessage</b><br>Test class: validationsINTestNG.SoftassertInAutomation</td>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: PamBeesly@gmail.com, JimIsmyBea4eva</td>
 <td></td>
-<td>5</td>
-<td>validationsINTestNG.SoftassertInAutomation@1a75e76a</td></tr>
+<td>14</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
 <tr>
-<td title='validationsINTestNG.SoftassertInAutomation.verifyTelephoneWarningMessageTest()'><b>verifyTelephoneWarningMessageTest</b><br>Test class: validationsINTestNG.SoftassertInAutomation</td>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: JimmyJohnsHallpy@yahoo.com, pamIsmyBae4eva</td>
 <td></td>
-<td>0</td>
-<td>validationsINTestNG.SoftassertInAutomation@1a75e76a</td></tr>
+<td>14</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
 <tr>
-<td title='validationsINTestNG.SoftassertInAutomation.verifyTopPageWarningMessage()'><b>verifyTopPageWarningMessage</b><br>Test class: validationsINTestNG.SoftassertInAutomation</td>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: JamesWhiteyBulgerwh@gmail.com, IamTheRealJames223</td>
 <td></td>
-<td>5</td>
-<td>validationsINTestNG.SoftassertInAutomation@1a75e76a</td></tr>
+<td>19</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
 <tr>
-<td title='validationsINTestNG.SoftassertInAutomation.verifyNinjaEmailWarningMessage()'><b>verifyNinjaEmailWarningMessage</b><br>Test class: validationsINTestNG.SoftassertInAutomation</td>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: IamTheWorldsBestboss@gmail.com, IamTheBestBoss</td>
 <td></td>
-<td>0</td>
-<td>validationsINTestNG.SoftassertInAutomation@1a75e76a</td></tr>
+<td>14</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
+<tr>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: therealwinterhillgang@gmail.com, TheRealHillGang123</td>
+<td></td>
+<td>14</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
+<tr>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: SenateBilly@gmail.com, ProudSenate12</td>
+<td></td>
+<td>15</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
+<tr>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: IamDwightSchrute2234@gmail.com, ILuvBeats440</td>
+<td></td>
+<td>14</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
+<tr>
+<td title='com.takingAdvantageOfExcel.TNregisterANdLogin.LoginWithExcelSheetInforMation()'><b>LoginWithExcelSheetInforMation</b><br>Test class: com.takingAdvantageOfExcel.TNregisterANdLogin<br>Parameters: KevinWeeks123@yahoo.com, WeeksNotWeaks321</td>
+<td></td>
+<td>14</td>
+<td>com.takingAdvantageOfExcel.TNregisterANdLogin@5f049ea1</td></tr>
 </table><p>
 </body>
 </html>

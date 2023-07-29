@@ -1,4 +1,4 @@
-package sleniumPractise;
+package seleniumPractise;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
