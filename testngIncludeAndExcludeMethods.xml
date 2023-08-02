@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite"/>
+
+  <test name="Test">
+    <classes>
+  <class name="includeAndExcludeTests.AddToCartTest"/>
+                     <methods>
+                     <include name = "AddToCartTest1" />
+                     <include name = "AddToCartTest2" />
+                     <exclude name = "AddToCartTest3" />
+                     </methods>
+                 </class>
+                  <classes/>
+            </test>
+            
+            
+      <test name="Test4login">
+    <classes>       
+  <class name="includeAndExcludeTests.LoginTest"/>
+                        <methods>
+                     <include name = "LoginTest1" />
+                     <exclude name = "LoginTest2" />
+                     <include name = "LoginTest3" />
+                        </methods>
+                        </class>
+                            <classes/>
+                             </test>
+                             
+     <test name="Test4register">
+    <classes>                      
+ <class name="includeAndExcludeTests.RegisterTest"/>
+                       <methods>
+                     <exclude name = "RegisterTest1" />
+                     <exclude name = "RegisterTest2" />
+                     <include name = "RegisterTest3" />
+                       </methods>
+                        </class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
+
+

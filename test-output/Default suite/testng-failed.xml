@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="propertiesFileDataRetrival.TutorialsNinjaLoginFromExcellSheet">
+      <class name="usingInheritenceInAutomation.LoginTest">
         <methods>
-          <include name="LoginWithExcelSheet"/>
-          <include name="shutDown"/>
+          <include name="verifyLoginWithValidCredentials"/>
+          <include name="verifyLoginWithInValidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- propertiesFileDataRetrival.TutorialsNinjaLoginFromExcellSheet -->
+      </class> <!-- usingInheritenceInAutomation.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
