@@ -1,8 +1,7 @@
 package usingInheritenceInAutomation;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.PageLoadStrategy;
-import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -11,23 +10,23 @@ import org.testng.asserts.SoftAssert;
 
 public class RegisterTest extends TestBase{
 
-	static EdgeDriver driver;
-	static EdgeOptions options;
+	 WebDriver driver;
+	 EdgeOptions options;
 	
 	
 	@BeforeMethod
-	public static void BrowserSetup() throws Throwable {
+	public  void BrowserSetup() throws Throwable {
 	
-		TestBase.openBrowserAndApplication();
+	//	TestBase.openBrowserAndApplication();
 	//	driver = new EdgeDriver(options);	
-				driver.findElement(By.xpath("//span[contains(text(),'My Account')]")).click();
-				driver.findElement(By.linkText("Register")).click();
+			
 		
 	}
 	
 	@Test(priority=1)
 	public void RegisterAccountWithValidRequirements(){
-		
+		driver.findElement(By.xpath("//span[contains(text(),'My Account')]")).click();
+		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.cssSelector("input#input-firstname")).sendKeys("james");
 		driver.findElement(By.cssSelector("input#input-lastname")).sendKeys("bullger");
 		driver.findElement(By.cssSelector("input#input-email")).sendKeys("JamesWhiteyBulger@yahoo.com");
@@ -44,7 +43,8 @@ public class RegisterTest extends TestBase{
 	}
 	@Test(priority=2)
 	public void RegisterAccountWithInvalidRequirements() throws InterruptedException{
-		
+		driver.findElement(By.xpath("//span[contains(text(),'My Account')]")).click();
+		driver.findElement(By.linkText("Register")).click();
 		driver.findElement(By.cssSelector("input#input-firstname")).sendKeys("SliMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm");
 		driver.findElement(By.cssSelector("input#input-lastname")).sendKeys("ShaDDDDDDD########################################dy");
 		driver.findElement(By.cssSelector("input#input-email")).sendKeys("Therealslimshady4eva1200000000000000000000000000029@gmail.com");

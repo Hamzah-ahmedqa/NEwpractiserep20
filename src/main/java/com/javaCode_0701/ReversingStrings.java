@@ -5,18 +5,19 @@ public class ReversingStrings {
 	public static void main(String[] args) {
 		
 		 String Pallindrome = "AibohphobiA";
-         String Dummy8 = "";
-         for(int i8=Pallindrome.length()-1; i8>=0; i8--) {
+         String Dummy = "";
+         for(int i =Pallindrome.length()-1; i>=0; i--) {
       	   
-      	   Dummy8 = Dummy8 + Pallindrome.charAt(i8);
+      	   Dummy = Dummy + Pallindrome.charAt(i);
       	  // System.out.println(Dummy8); run the print in the loop to make it appear letter by letter
          }
-                System.out.println(Dummy8);
+                System.out.println(Dummy);
                 
-                if(Dummy8.equals(Pallindrome)) { // if we use Dummy8==Pallindrome it wont work
-                	System.out.println("our String "+Dummy8+" is a Pallindrome");
+                if(Dummy.equals(Pallindrome)) { // if we use Dummy8==Pallindrome it wont work
+                	
+                	System.out.println("our String "+Dummy+" is a Pallindrome");
                 } else {
-                	System.out.println("Our String "+Dummy8+" is not a Pallindrome");
+                	System.out.println("Our String "+Dummy+" is not a Pallindrome");
                 }
 
 	}

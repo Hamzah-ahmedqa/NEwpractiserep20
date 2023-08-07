@@ -12,16 +12,16 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class LoginTest extends TestBase {
-  static WebDriver driver;
-   static EdgeOptions options;
+   WebDriver driver;
+    EdgeOptions options;
 	 
 @BeforeMethod
-	public static void setUp() throws Throwable {
-	TestBase.openBrowserAndApplication();
+	public  void setUp() throws Throwable {
+	//TestBase.openBrowserAndApplication();
 	// driver = new EdgeDriver(options);
 	
 	
-		driver.findElement(By.linkText("My Account")).click();
+		
 		
 	}
 	
@@ -30,7 +30,7 @@ public class LoginTest extends TestBase {
 	public void verifyLoginWithValidCredentials() {
 		
 		
-	
+		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Login")).click();
 		driver.findElement(By.name("email")).sendKeys("Therealslimshady4eva1229@gmail.com");
 		driver.findElement(By.id("input-password")).sendKeys("IamSecretlyEminem221");
@@ -45,7 +45,7 @@ public class LoginTest extends TestBase {
 	@Test(priority = 2)
 	public void verifyLoginWithInValidCredentials() {
 		
-		
+		driver.findElement(By.linkText("My Account")).click();
 		driver.findElement(By.linkText("Login")).click();
 		driver.findElement(By.name("email")).sendKeys("Therealslimshady4eva1222222222222222229@gmail.com");
 		driver.findElement(By.id("input-password")).sendKeys("IamSecretlyEminem222222222221");

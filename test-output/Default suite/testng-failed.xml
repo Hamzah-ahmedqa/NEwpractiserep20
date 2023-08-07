@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="usingInheritenceInAutomation.LoginTest">
+      <class name="listenersInAutomation.TestCaseForListenersLoginRediff">
         <methods>
-          <include name="verifyLoginWithValidCredentials"/>
-          <include name="verifyLoginWithInValidCredentials"/>
-          <include name="setUp"/>
+          <include name="clickOnSignInButton"/>
+          <include name="enterValidCredentials"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- usingInheritenceInAutomation.LoginTest -->
+      </class> <!-- listenersInAutomation.TestCaseForListenersLoginRediff -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
