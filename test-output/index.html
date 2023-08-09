@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\ninja\eclipse-workspace\WEEKENDBATCH\com.maven.project\testngListenersforOurClasses.xml</span>
+                    <span>C:\Users\ninja\eclipse-workspace\WEEKENDBATCH\com.maven.project\testngListenerAndExtentReports.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,  1 skipped,  4 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,  1 skipped,  3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TN_login" class="method navigator-link" hash-for-method="LoginWithValidCredentials">LoginWithValidCredentials</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TestCaseForListenersLoginRediff" class="method navigator-link" hash-for-method="enterValidCredentials">enterValidCredentials</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentReporterClass.TutorialsNinjaLoginTest" class="method navigator-link" hash-for-method="enterValidCredentials">enterValidCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,7 +117,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TestCaseForListenersLoginRediff" class="method navigator-link" hash-for-method="clickOnSignInButton">clickOnSignInButton</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentReporterClass.TutorialsNinjaLoginTest" class="method navigator-link" hash-for-method="clickOnLoginButton">clickOnLoginButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -136,22 +131,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TN_Register" class="method navigator-link" hash-for-method="RegisterAccountWithValidRequirements">RegisterAccountWithValidRequirements</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentReporterClass.TutorialsNinja_Register" class="method navigator-link" hash-for-method="RegisterAccountWithValidRequirements">RegisterAccountWithValidRequirements</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TestCaseForListenersLoginRediff" class="method navigator-link" hash-for-method="clickOnLogoutLink">clickOnLogoutLink</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentReporterClass.TutorialsNinjaLoginTest" class="method navigator-link" hash-for-method="clickOnLogin">clickOnLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TestCaseForListenersLoginRediff" class="method navigator-link" hash-for-method="clickOnReddifHomeLink">clickOnReddifHomeLink</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="listenersInAutomation.TestCaseForListenersLoginRediff" class="method navigator-link" hash-for-method="clickOnSignInLink">clickOnSignInLink</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="extentReporterClass.TutorialsNinjaLoginTest" class="method navigator-link" hash-for-method="clickOnMyAccount">clickOnMyAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -169,46 +159,7 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">listenersInAutomation.TN_login</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginWithValidCredentials">
-                  </a> <!-- LoginWithValidCredentials -->
-                  <span class="method-name">LoginWithValidCredentials</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#input-email&quot;}
-  (Session info: MicrosoftEdge=115.0.1901.188)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [57013035f34589bb1e8a104448911133, findElement {using=css selector, value=input#input-email}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:62798}, msedge: {msedgedriverVersion: 115.0.1901.188 (b51b39339c4..., userDataDir: C:\Users\ninja\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62798/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 57013035f34589bb1e8a104448911133
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at listenersInAutomation.TN_login.LoginWithValidCredentials(TN_login.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">listenersInAutomation.TestCaseForListenersLoginRediff</span>
+              <span class="class-name">extentReporterClass.TutorialsNinjaLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -216,39 +167,10 @@ Session ID: 57013035f34589bb1e8a104448911133
                   <a name="enterValidCredentials">
                   </a> <!-- enterValidCredentials -->
                   <span class="method-name">enterValidCredentials</span>
-                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials() didn&apos;t finish within the time-out 1000
-	at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-	at java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-	at java.base@17.0.7/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
-	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
-	at java.base@17.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
-	at java.base@17.0.7/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
-	at java.base@17.0.7/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at app//org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
-	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
-	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler$$Lambda$360/0x0000000100373940.execute(Unknown Source)
-	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$463/0x00000001003a6c18.execute(Unknown Source)
-	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at app//org.openqa.selenium.remote.http.Filter$$Lambda$361/0x0000000100373b70.execute(Unknown Source)
-	at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
-	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-	at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$463/0x00000001003a6c18.execute(Unknown Source)
-	at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-	at app//org.openqa.selenium.remote.http.Filter$$Lambda$361/0x0000000100373b70.execute(Unknown Source)
-	at app//org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
-	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-	at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-	at app//listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials(TestCaseForListenersLoginRediff.java:46)
-	at java.base@17.0.7/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-... Removed 8 stack frames
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials(TutorialsNinjaLoginTest.java:48)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -257,16 +179,16 @@ Session ID: 57013035f34589bb1e8a104448911133
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">listenersInAutomation.TestCaseForListenersLoginRediff</span>
+              <span class="class-name">extentReporterClass.TutorialsNinjaLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnSignInButton">
-                  </a> <!-- clickOnSignInButton -->
-                  <span class="method-name">clickOnSignInButton</span>
-                  <div class="stack-trace">java.lang.Throwable: Method listenersInAutomation.TestCaseForListenersLoginRediff.clickOnSignInButton() on instance listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0 depends on not successfully finished methods 
-[listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials() on instance listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]
+                  <a name="clickOnLoginButton">
+                  </a> <!-- clickOnLoginButton -->
+                  <span class="method-name">clickOnLoginButton</span>
+                  <div class="stack-trace">java.lang.Throwable: Method extentReporterClass.TutorialsNinjaLoginTest.clickOnLoginButton() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40 depends on not successfully finished methods 
+[extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 18 stack frames
 </div> <!-- stack-trace -->
@@ -277,7 +199,7 @@ Session ID: 57013035f34589bb1e8a104448911133
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">listenersInAutomation.TN_Register</span>
+              <span class="class-name">extentReporterClass.TutorialsNinja_Register</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -292,28 +214,21 @@ Session ID: 57013035f34589bb1e8a104448911133
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">listenersInAutomation.TestCaseForListenersLoginRediff</span>
+              <span class="class-name">extentReporterClass.TutorialsNinjaLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnLogoutLink">
-                  </a> <!-- clickOnLogoutLink -->
-                  <span class="method-name">clickOnLogoutLink</span>
+                  <a name="clickOnLogin">
+                  </a> <!-- clickOnLogin -->
+                  <span class="method-name">clickOnLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="clickOnReddifHomeLink">
-                  </a> <!-- clickOnReddifHomeLink -->
-                  <span class="method-name">clickOnReddifHomeLink</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="clickOnSignInLink">
-                  </a> <!-- clickOnSignInLink -->
-                  <span class="method-name">clickOnSignInLink</span>
+                  <a name="clickOnMyAccount">
+                  </a> <!-- clickOnMyAccount -->
+                  <span class="method-name">clickOnMyAccount</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -321,7 +236,7 @@ Session ID: 57013035f34589bb1e8a104448911133
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ninja\eclipse-workspace\WEEKENDBATCH\com.maven.project\testngListenersforOurClasses.xml</span>
+            <span class="header-content">C:\Users\ninja\eclipse-workspace\WEEKENDBATCH\com.maven.project\testngListenerAndExtentReports.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -329,13 +244,12 @@ Session ID: 57013035f34589bb1e8a104448911133
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;listenersInAutomation.MyListener&quot;/&gt;
+    &lt;listener class-name=&quot;extentReporterClass.MyListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;listenersInAutomation.TN_Register&quot;/&gt;
-      &lt;class name=&quot;listenersInAutomation.TestCaseForListenersLoginRediff&quot;/&gt;
-      &lt;class name=&quot;listenersInAutomation.TN_login&quot;/&gt;
+      &lt;class name=&quot;extentReporterClass.TutorialsNinja_Register&quot;/&gt;
+      &lt;class name=&quot;extentReporterClass.TutorialsNinjaLoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -349,7 +263,7 @@ Session ID: 57013035f34589bb1e8a104448911133
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -375,40 +289,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'clickOnReddifHomeLink')
-data.setCell(0, 2, 'listenersInAutomation.TestCaseForListenersLoginRediff')
-data.setCell(0, 3, 18224);
+data.setCell(0, 1, 'RegisterAccountWithValidRequirements')
+data.setCell(0, 2, 'extentReporterClass.TutorialsNinja_Register')
+data.setCell(0, 3, 2908);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'clickOnLogoutLink')
-data.setCell(1, 2, 'listenersInAutomation.TestCaseForListenersLoginRediff')
-data.setCell(1, 3, 12271);
+data.setCell(1, 1, 'enterValidCredentials')
+data.setCell(1, 2, 'extentReporterClass.TutorialsNinjaLoginTest')
+data.setCell(1, 3, 1005);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'RegisterAccountWithValidRequirements')
-data.setCell(2, 2, 'listenersInAutomation.TN_Register')
-data.setCell(2, 3, 3405);
+data.setCell(2, 1, 'clickOnLogin')
+data.setCell(2, 2, 'extentReporterClass.TutorialsNinjaLoginTest')
+data.setCell(2, 3, 689);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'clickOnSignInLink')
-data.setCell(3, 2, 'listenersInAutomation.TestCaseForListenersLoginRediff')
-data.setCell(3, 3, 2034);
+data.setCell(3, 1, 'clickOnMyAccount')
+data.setCell(3, 2, 'extentReporterClass.TutorialsNinjaLoginTest')
+data.setCell(3, 3, 157);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'enterValidCredentials')
-data.setCell(4, 2, 'listenersInAutomation.TestCaseForListenersLoginRediff')
-data.setCell(4, 3, 1068);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginWithValidCredentials')
-data.setCell(5, 2, 'listenersInAutomation.TN_login')
-data.setCell(5, 3, 72);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'clickOnSignInButton')
-data.setCell(6, 2, 'listenersInAutomation.TestCaseForListenersLoginRediff')
-data.setCell(6, 3, 0);
+data.setCell(4, 1, 'clickOnLoginButton')
+data.setCell(4, 2, 'extentReporterClass.TutorialsNinjaLoginTest')
+data.setCell(4, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -434,88 +340,59 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">listenersInAutomation.TN_Register</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">extentReporterClass.TutorialsNinja_Register</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">BrowserSetup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">RegisterAccountWithValidRequirements</span>
-                <span class="method-start">12707 ms</span>
+                <span class="method-start">12711 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">16135 ms</span>
+                <span class="method-start">15627 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">listenersInAutomation.TestCaseForListenersLoginRediff</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">extentReporterClass.TutorialsNinjaLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">16539 ms</span>
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">16228 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">clickOnSignInLink</span>
-                <span class="method-start">20916 ms</span>
+                <span class="method-name">clickOnMyAccount</span>
+                <span class="method-start">24937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22953 ms</span>
+                <span class="method-start">25101 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">23286 ms</span>
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">25761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnLogin</span>
+                <span class="method-start">33363 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34060 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BrowserSetup</span>
+                <span class="method-start">34628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">enterValidCredentials</span>
-                <span class="method-start">27064 ms</span>
+                <span class="method-start">43772 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28139 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">29768 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">clickOnLogoutLink</span>
-                <span class="method-start">33078 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">45359 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">45749 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">clickOnReddifHomeLink</span>
-                <span class="method-start">50682 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">68910 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">listenersInAutomation.TN_login</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">BrowserSetup</span>
-                <span class="method-start">69284 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LoginWithValidCredentials</span>
-                <span class="method-start">76552 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">76631 ms</span>
+                <span class="method-start">45275 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

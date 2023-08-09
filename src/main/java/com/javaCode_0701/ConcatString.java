@@ -21,7 +21,7 @@ public class ConcatString {
 		int hours = 40;
 		int weeks = 4;
 		int months = 12;
-		int hourly = 60;
+		int hourly = 55;
 		
 		char dollasign = '$';
 	  double TheChange = .0;

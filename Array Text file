@@ -10,9 +10,9 @@ IF YOU GIVE 0 A NEGATIVEARRAYSIZEEXCEPTION error will be thrown
 
 you cannot give the size during declaration
 
-object array can store multipple data types
+object array can store multiple data types
 
-variables in the array are orderred 
+variables in the array are ordered 
 indexing inside of an array begin from 0
 they are created at runtime
 

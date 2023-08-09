@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite4BatchPackage">
+<!-- copy and paste them in the order you want them to run -->
+  <test name="RediffTest">
+    <classes>
+      <class name="runningTestCasesInBatches.ReddifLoginTest"/>
+      <class name="runningTestCasesInBatches.ReddifRegisterCreateAccountTest"/>
+        </classes>
+         </test> 
+  
+    <test name="NinjatutorialsTest">
+    <classes>
+      <class name="runningTestCasesInBatches.TutorialsNinjaRegisterAccountTest"/>
+      <class name="runningTestCasesInBatches.TutorialsNinjaLoginTest"/>
+    </classes>
+    
+  </test> <!-- Test4BatchPackage -->
+</suite> <!-- Suite4BatchPackage -->

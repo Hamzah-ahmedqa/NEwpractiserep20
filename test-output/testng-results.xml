@@ -1,70 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="4" failed="2" skipped="1">
+<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T15:27:35 EDT" name="Suite" finished-at="2023-08-07T15:28:52 EDT" duration-ms="77056">
+  <suite started-at="2023-08-08T23:40:08 EDT" name="Suite" finished-at="2023-08-08T23:40:54 EDT" duration-ms="46690">
     <groups>
     </groups>
-    <test started-at="2023-08-07T15:27:35 EDT" name="Test" finished-at="2023-08-07T15:28:52 EDT" duration-ms="77056">
-      <class name="listenersInAutomation.TN_Register">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:listenersInAutomation.TN_Register@645aa696]" started-at="2023-08-07T15:27:35 EDT" name="BrowserSetup" finished-at="2023-08-07T15:27:48 EDT" duration-ms="12697" status="PASS">
+    <test started-at="2023-08-08T23:40:08 EDT" name="Test" finished-at="2023-08-08T23:40:54 EDT" duration-ms="46690">
+      <class name="extentReporterClass.TutorialsNinjaLoginTest">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:25 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:33 EDT" duration-ms="8709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="RegisterAccountWithValidRequirements()[pri:1, instance:listenersInAutomation.TN_Register@645aa696]" started-at="2023-08-07T15:27:48 EDT" name="RegisterAccountWithValidRequirements" finished-at="2023-08-07T15:27:52 EDT" duration-ms="3405" status="PASS">
+        <test-method signature="clickOnMyAccount()[pri:1, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:33 EDT" name="clickOnMyAccount" finished-at="2023-08-08T23:40:34 EDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RegisterAccountWithValidRequirements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:listenersInAutomation.TN_Register@645aa696]" started-at="2023-08-07T15:27:52 EDT" name="tearDown" finished-at="2023-08-07T15:27:52 EDT" duration-ms="401" status="PASS">
+        </test-method> <!-- clickOnMyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:34 EDT" name="tearDown" finished-at="2023-08-08T23:40:34 EDT" duration-ms="660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- listenersInAutomation.TN_Register -->
-      <class name="listenersInAutomation.TN_login">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:listenersInAutomation.TN_login@6f10d5b6]" started-at="2023-08-07T15:28:45 EDT" name="BrowserSetup" finished-at="2023-08-07T15:28:52 EDT" duration-ms="7268" status="PASS">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:34 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:42 EDT" duration-ms="7602" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method signature="LoginWithValidCredentials()[pri:1, instance:listenersInAutomation.TN_login@6f10d5b6]" started-at="2023-08-07T15:28:52 EDT" name="LoginWithValidCredentials" finished-at="2023-08-07T15:28:52 EDT" duration-ms="72" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="clickOnLogin()[pri:2, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:42 EDT" name="clickOnLogin" finished-at="2023-08-08T23:40:43 EDT" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:43 EDT" name="tearDown" finished-at="2023-08-08T23:40:43 EDT" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:43 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:52 EDT" duration-ms="9144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="enterValidCredentials()[pri:3, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:52 EDT" name="enterValidCredentials" finished-at="2023-08-08T23:40:53 EDT" duration-ms="1005" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"input#input-email"}
-  (Session info: MicrosoftEdge=115.0.1901.188)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [57013035f34589bb1e8a104448911133, findElement {using=css selector, value=input#input-email}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:62798}, msedge: {msedgedriverVersion: 115.0.1901.188 (b51b39339c4..., userDataDir: C:\Users\ninja\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62798/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 57013035f34589bb1e8a104448911133]]>
+              <![CDATA[null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"input#input-email"}
-  (Session info: MicrosoftEdge=115.0.1901.188)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.10.0', revision: 'c14d967899'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [57013035f34589bb1e8a104448911133, findElement {using=css selector, value=input#input-email}]
-Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 115.0.1901.188, ms:edgeOptions: {debuggerAddress: localhost:62798}, msedge: {msedgedriverVersion: 115.0.1901.188 (b51b39339c4..., userDataDir: C:\Users\ninja\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62798/devtoo..., se:cdpVersion: 115.0.1901.188, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 57013035f34589bb1e8a104448911133
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at listenersInAutomation.TN_login.LoginWithValidCredentials(TN_login.java:32)
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials(TutorialsNinjaLoginTest.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -95,97 +75,23 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:listenersInAutomation.TN_login@6f10d5b6]" started-at="2023-08-07T15:28:52 EDT" name="tearDown" finished-at="2023-08-07T15:28:52 EDT" duration-ms="365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- listenersInAutomation.TN_login -->
-      <class name="listenersInAutomation.TestCaseForListenersLoginRediff">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:27:52 EDT" name="setUp" finished-at="2023-08-07T15:27:56 EDT" duration-ms="4377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickOnSignInLink()[pri:1, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:27:56 EDT" name="clickOnSignInLink" finished-at="2023-08-07T15:27:58 EDT" duration-ms="2034" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnSignInLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:27:58 EDT" name="tearDown" finished-at="2023-08-07T15:27:59 EDT" duration-ms="331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:27:59 EDT" name="setUp" finished-at="2023-08-07T15:28:03 EDT" duration-ms="3777" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="enterValidCredentials()[pri:2, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:03 EDT" name="enterValidCredentials" finished-at="2023-08-07T15:28:04 EDT" duration-ms="1068" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials() didn't finish within the time-out 1000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials() didn't finish within the time-out 1000
-at java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
-at java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
-at java.base@17.0.7/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1866)
-at java.base@17.0.7/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
-at java.base@17.0.7/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
-at java.base@17.0.7/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1939)
-at java.base@17.0.7/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-at app//org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
-at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
-at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler$$Lambda$360/0x0000000100373940.execute(Unknown Source)
-at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$463/0x00000001003a6c18.execute(Unknown Source)
-at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at app//org.openqa.selenium.remote.http.Filter$$Lambda$361/0x0000000100373b70.execute(Unknown Source)
-at app//org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:48)
-at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at app//org.openqa.selenium.remote.http.AddSeleniumUserAgent$$Lambda$463/0x00000001003a6c18.execute(Unknown Source)
-at app//org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at app//org.openqa.selenium.remote.http.Filter$$Lambda$361/0x0000000100373b70.execute(Unknown Source)
-at app//org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:97)
-at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:188)
-at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
-at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
-at app//org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at app//listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials(TestCaseForListenersLoginRediff.java:46)
-at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base@17.0.7/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base@17.0.7/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base@17.0.7/java.lang.reflect.Method.invoke(Method.java:568)
-at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
-at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
-at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
-at java.base@17.0.7/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:04 EDT" name="tearDown" finished-at="2023-08-07T15:28:05 EDT" duration-ms="1618" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:54 EDT" name="tearDown" finished-at="2023-08-08T23:40:54 EDT" duration-ms="662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="clickOnSignInButton()[pri:3, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:05 EDT" name="clickOnSignInButton" finished-at="2023-08-07T15:28:05 EDT" depends-on-methods="listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials" duration-ms="0" status="SKIP">
+        <test-method signature="clickOnLoginButton()[pri:4, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:54 EDT" name="clickOnLoginButton" finished-at="2023-08-08T23:40:54 EDT" depends-on-methods="extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method listenersInAutomation.TestCaseForListenersLoginRediff.clickOnSignInButton() on instance listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0 depends on not successfully finished methods 
-[listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials() on instance listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]]]>
+              <![CDATA[Method extentReporterClass.TutorialsNinjaLoginTest.clickOnLoginButton() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40 depends on not successfully finished methods 
+[extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method listenersInAutomation.TestCaseForListenersLoginRediff.clickOnSignInButton() on instance listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0 depends on not successfully finished methods 
-[listenersInAutomation.TestCaseForListenersLoginRediff.enterValidCredentials() on instance listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]
+              <![CDATA[java.lang.Throwable: Method extentReporterClass.TutorialsNinjaLoginTest.clickOnLoginButton() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40 depends on not successfully finished methods 
+[extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -210,32 +116,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnSignInButton -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:05 EDT" name="setUp" finished-at="2023-08-07T15:28:09 EDT" duration-ms="3310" status="PASS">
+        </test-method> <!-- clickOnLoginButton -->
+      </class> <!-- extentReporterClass.TutorialsNinjaLoginTest -->
+      <class name="extentReporterClass.TutorialsNinja_Register">
+        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinja_Register@909217e]" started-at="2023-08-08T23:40:08 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:21 EDT" duration-ms="12711" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickOnLogoutLink()[pri:4, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:09 EDT" name="clickOnLogoutLink" finished-at="2023-08-07T15:28:21 EDT" duration-ms="12271" status="PASS">
+        </test-method> <!-- BrowserSetup -->
+        <test-method signature="RegisterAccountWithValidRequirements()[pri:1, instance:extentReporterClass.TutorialsNinja_Register@909217e]" started-at="2023-08-08T23:40:21 EDT" name="RegisterAccountWithValidRequirements" finished-at="2023-08-08T23:40:24 EDT" duration-ms="2908" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnLogoutLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:21 EDT" name="tearDown" finished-at="2023-08-07T15:28:21 EDT" duration-ms="388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:21 EDT" name="setUp" finished-at="2023-08-07T15:28:26 EDT" duration-ms="4933" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="clickOnReddifHomeLink()[pri:5, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:26 EDT" name="clickOnReddifHomeLink" finished-at="2023-08-07T15:28:44 EDT" duration-ms="18224" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnReddifHomeLink -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:listenersInAutomation.TestCaseForListenersLoginRediff@61c4eee0]" started-at="2023-08-07T15:28:44 EDT" name="tearDown" finished-at="2023-08-07T15:28:45 EDT" duration-ms="372" status="PASS">
+        </test-method> <!-- RegisterAccountWithValidRequirements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinja_Register@909217e]" started-at="2023-08-08T23:40:24 EDT" name="tearDown" finished-at="2023-08-08T23:40:25 EDT" duration-ms="601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- listenersInAutomation.TestCaseForListenersLoginRediff -->
+      </class> <!-- extentReporterClass.TutorialsNinja_Register -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

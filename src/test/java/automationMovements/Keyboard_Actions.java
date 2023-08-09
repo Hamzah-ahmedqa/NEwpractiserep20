@@ -34,7 +34,7 @@ public void KeyBoardActions() {
 			Actions actions = new Actions(driver);
 			
 			WebElement loginButton = driver.findElement(By.cssSelector("input.btn.btn-primary"));
-			actions.sendKeys(Keys.ENTER).perform();			
+	//		actions.sendKeys(Keys.ENTER).perform();			
 			
 }
 

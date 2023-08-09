@@ -1,0 +1,21 @@
+
+
+1)Test cases should be ready
+2)your MyListener class needs to be there and ready
+3)you have to create a package which holds the extent reports code
+4)you have to connect the MyListener class with the class that has the extent report code
+5) then in the onTestFailure method we to write the code for capturing a the failure screenshot
+
+
+ExtentSparkReporter     --this is free, we will use this
+ExtentSparkReporter spark = new ExtentSparkReporter("Spark.html");
+ 
+ExtentAventReporter pro
+ExtentAventReporter avent = new ExtentAventReporter("Avent.html");
+
+ExtentEmailReporter pro
+ExtentEmailReporter email = new ExtentEmailReporter("Email.html");
+
+ExtentKlovReporter   
+ExtentKlovReporter klov = new ExtentKlovReporter("ProjectName")
+  .initWithDefaultSettings();

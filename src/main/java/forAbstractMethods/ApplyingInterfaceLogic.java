@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class ApplyingInterfaceLogic {
 	
                            //chromeDriver is an implementing class
-	WebDriver driver = new ChromeDriver();
+	public WebDriver driver = new ChromeDriver();
 	//webDriver is an interface
 	//WebDriver has a lot of abstract Methods
 	

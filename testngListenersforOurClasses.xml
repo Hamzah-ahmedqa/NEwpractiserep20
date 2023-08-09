@@ -3,7 +3,7 @@
 <suite name="Suite">
 
 <listeners>
-            <listener class-name = "listenersInAutomation.MyListener" />
+            <listener class-name = "listenersInAutomationAndExtentReports.MyListener" />
 </listeners>
 
 
