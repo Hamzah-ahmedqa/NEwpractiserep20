@@ -12,7 +12,7 @@ public class Create_1d_arrrays {
 		int []r = new int[0];
 		System.out.println(r.length);
 		
-		int[]arr = new int[-2];
+	//	int[]arr = new int[-2];
 	//	System.out.println(arr.length);
 		//java.lang.NegativeArraySizeException 
 

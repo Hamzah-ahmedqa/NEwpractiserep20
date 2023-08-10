@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bb8810e-9ba8-4fd5-9a16-7056d1a293c8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../main/java/com/javaCode0717/Create_1d_arrrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/java/com/javaCode0717/Create_1d_arrrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/META-INF/maven/com.maven.advanced/Maven_Advanced_Project/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/META-INF/maven/com.maven.advanced/Maven_Advanced_Project/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../target/classes/com/javaCode0717/Create_1d_arrrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../target/classes/com/javaCode0717/Create_1d_arrrays.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2TlDz6X5ryC3ebIHAEmF0ydS9nS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ninja/eclipse-workspace/WEEKENDBATCH/com.maven.project/src/test/java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="test" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bb8810e-9ba8-4fd5-9a16-7056d1a293c8" name="Changes" comment="" />
+      <created>1691609033099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691609033099</updated>
+    </task>
+    <servers />
+  </component>
+</project>
