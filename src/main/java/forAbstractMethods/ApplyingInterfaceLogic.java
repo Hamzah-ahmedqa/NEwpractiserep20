@@ -2,7 +2,8 @@ package forAbstractMethods;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+
+
 
 public class ApplyingInterfaceLogic {
 	
@@ -15,8 +16,9 @@ public class ApplyingInterfaceLogic {
 	//an interface can refer to the object of a class
 	
 	
-	@Test
+	//@Test
 	public void someTest() {
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		   //these are unimplemented or abstract methods of WebDriver interface
 		//we dont know how they are doing this, but we can call and use them
