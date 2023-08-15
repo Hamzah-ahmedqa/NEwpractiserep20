@@ -1,137 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-08T23:40:08 EDT" name="Suite" finished-at="2023-08-08T23:40:54 EDT" duration-ms="46690">
+  <suite started-at="2023-08-14T22:38:29 EDT" name="Default suite" finished-at="2023-08-14T22:38:56 EDT" duration-ms="26504">
     <groups>
     </groups>
-    <test started-at="2023-08-08T23:40:08 EDT" name="Test" finished-at="2023-08-08T23:40:54 EDT" duration-ms="46690">
-      <class name="extentReporterClass.TutorialsNinjaLoginTest">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:25 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:33 EDT" duration-ms="8709" status="PASS">
+    <test started-at="2023-08-14T22:38:29 EDT" name="Default test" finished-at="2023-08-14T22:38:56 EDT" duration-ms="26504">
+      <class name="screenRecorderCode.ScreenRecord_Rediff">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:screenRecorderCode.ScreenRecord_Rediff@18271936]" started-at="2023-08-14T22:38:29 EDT" name="setUp" finished-at="2023-08-14T22:38:41 EDT" duration-ms="11266" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="clickOnMyAccount()[pri:1, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:33 EDT" name="clickOnMyAccount" finished-at="2023-08-08T23:40:34 EDT" duration-ms="157" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest()[pri:0, instance:screenRecorderCode.ScreenRecord_Rediff@18271936]" started-at="2023-08-14T22:38:41 EDT" name="loginTest" finished-at="2023-08-14T22:38:55 EDT" duration-ms="14653" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickOnMyAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:34 EDT" name="tearDown" finished-at="2023-08-08T23:40:34 EDT" duration-ms="660" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:34 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:42 EDT" duration-ms="7602" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="clickOnLogin()[pri:2, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:42 EDT" name="clickOnLogin" finished-at="2023-08-08T23:40:43 EDT" duration-ms="689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:43 EDT" name="tearDown" finished-at="2023-08-08T23:40:43 EDT" duration-ms="568" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenRecorderCode.ScreenRecord_Rediff@18271936]" started-at="2023-08-14T22:38:55 EDT" name="tearDown" finished-at="2023-08-14T22:38:56 EDT" duration-ms="516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:43 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:52 EDT" duration-ms="9144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="enterValidCredentials()[pri:3, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:52 EDT" name="enterValidCredentials" finished-at="2023-08-08T23:40:53 EDT" duration-ms="1005" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials(TutorialsNinjaLoginTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterValidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:54 EDT" name="tearDown" finished-at="2023-08-08T23:40:54 EDT" duration-ms="662" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="clickOnLoginButton()[pri:4, instance:extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]" started-at="2023-08-08T23:40:54 EDT" name="clickOnLoginButton" finished-at="2023-08-08T23:40:54 EDT" depends-on-methods="extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method extentReporterClass.TutorialsNinjaLoginTest.clickOnLoginButton() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40 depends on not successfully finished methods 
-[extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method extentReporterClass.TutorialsNinjaLoginTest.clickOnLoginButton() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40 depends on not successfully finished methods 
-[extentReporterClass.TutorialsNinjaLoginTest.enterValidCredentials() on instance extentReporterClass.TutorialsNinjaLoginTest@6d60fe40]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnLoginButton -->
-      </class> <!-- extentReporterClass.TutorialsNinjaLoginTest -->
-      <class name="extentReporterClass.TutorialsNinja_Register">
-        <test-method is-config="true" signature="BrowserSetup()[pri:0, instance:extentReporterClass.TutorialsNinja_Register@909217e]" started-at="2023-08-08T23:40:08 EDT" name="BrowserSetup" finished-at="2023-08-08T23:40:21 EDT" duration-ms="12711" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserSetup -->
-        <test-method signature="RegisterAccountWithValidRequirements()[pri:1, instance:extentReporterClass.TutorialsNinja_Register@909217e]" started-at="2023-08-08T23:40:21 EDT" name="RegisterAccountWithValidRequirements" finished-at="2023-08-08T23:40:24 EDT" duration-ms="2908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RegisterAccountWithValidRequirements -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:extentReporterClass.TutorialsNinja_Register@909217e]" started-at="2023-08-08T23:40:24 EDT" name="tearDown" finished-at="2023-08-08T23:40:25 EDT" duration-ms="601" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- extentReporterClass.TutorialsNinja_Register -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- screenRecorderCode.ScreenRecord_Rediff -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

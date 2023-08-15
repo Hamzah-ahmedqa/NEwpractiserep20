@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="listenersInAutomation.TestCaseForListenersLoginRediff">
+      <class name="screenRecorderCode.ScreenRecord_Rediff">
         <methods>
-          <include name="clickOnSignInButton"/>
-          <include name="enterValidCredentials"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- listenersInAutomation.TestCaseForListenersLoginRediff -->
+      </class> <!-- screenRecorderCode.ScreenRecord_Rediff -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
