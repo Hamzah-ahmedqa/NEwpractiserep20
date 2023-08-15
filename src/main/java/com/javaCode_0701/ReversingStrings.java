@@ -6,6 +6,12 @@ public class ReversingStrings {
 		
 		 String Pallindrome = "AibohphobiA";
          String Dummy = "";
+         
+         
+                //we use minus one becaus arrays and strings are zero indexed,
+         //so .length will not start from 0 but instead of 1, so .length will assume the size is 11
+         //but the reality is our string is 10 because of the 0th position 
+         //therefore we use minus 1, and if we were to remove it an error would be thrown
          for(int i =Pallindrome.length()-1; i>=0; i--) {
       	   
       	   Dummy = Dummy + Pallindrome.charAt(i);

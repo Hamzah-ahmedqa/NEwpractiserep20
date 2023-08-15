@@ -25,7 +25,7 @@ public class Mouse_MoveMents {
 		options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 		
 		driver = new ChromeDriver(options);
-		//driver.get("https://jqueryui.com");
+	     //driver.get("https://jqueryui.com");
 		driver.get("https://browserstack.com");
 		
 	} 
@@ -45,6 +45,9 @@ public class Mouse_MoveMents {
 		Thread.sleep(3000);
 		                                     //this is right click
 		action.moveToElement(getADemoButton).contextClick().perform();
+             //normal click		
+		// action.moveToElement(getStartedFreeButton).click().perform();
+		
 	}
 	
 
