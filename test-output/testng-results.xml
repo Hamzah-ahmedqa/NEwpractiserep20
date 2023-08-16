@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-14T22:38:29 EDT" name="Default suite" finished-at="2023-08-14T22:38:56 EDT" duration-ms="26504">
+  <suite started-at="2023-08-16T18:54:15 EDT" name="Default suite" finished-at="2023-08-16T18:54:33 EDT" duration-ms="18269">
     <groups>
     </groups>
-    <test started-at="2023-08-14T22:38:29 EDT" name="Default test" finished-at="2023-08-14T22:38:56 EDT" duration-ms="26504">
-      <class name="screenRecorderCode.ScreenRecord_Rediff">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:screenRecorderCode.ScreenRecord_Rediff@18271936]" started-at="2023-08-14T22:38:29 EDT" name="setUp" finished-at="2023-08-14T22:38:41 EDT" duration-ms="11266" status="PASS">
+    <test started-at="2023-08-16T18:54:15 EDT" name="Default test" finished-at="2023-08-16T18:54:33 EDT" duration-ms="18269">
+      <class name="moreAboutAutomationExtraLearning.FirefoxProfilingLearning">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:moreAboutAutomationExtraLearning.FirefoxProfilingLearning@18271936]" started-at="2023-08-16T18:54:15 EDT" name="setUp" finished-at="2023-08-16T18:54:30 EDT" duration-ms="14761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:screenRecorderCode.ScreenRecord_Rediff@18271936]" started-at="2023-08-14T22:38:41 EDT" name="loginTest" finished-at="2023-08-14T22:38:55 EDT" duration-ms="14653" status="PASS">
+        <test-method signature="verifyCurrentTitleAndUrl()[pri:0, instance:moreAboutAutomationExtraLearning.FirefoxProfilingLearning@18271936]" started-at="2023-08-16T18:54:30 EDT" name="verifyCurrentTitleAndUrl" finished-at="2023-08-16T18:54:32 EDT" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:screenRecorderCode.ScreenRecord_Rediff@18271936]" started-at="2023-08-14T22:38:55 EDT" name="tearDown" finished-at="2023-08-14T22:38:56 EDT" duration-ms="516" status="PASS">
+        </test-method> <!-- verifyCurrentTitleAndUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:moreAboutAutomationExtraLearning.FirefoxProfilingLearning@18271936]" started-at="2023-08-16T18:54:32 EDT" name="tearDown" finished-at="2023-08-16T18:54:33 EDT" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- screenRecorderCode.ScreenRecord_Rediff -->
+      </class> <!-- moreAboutAutomationExtraLearning.FirefoxProfilingLearning -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

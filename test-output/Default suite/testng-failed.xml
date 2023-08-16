@@ -3,13 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="screenRecorderCode.ScreenRecord_Rediff">
+      <class name="moreAboutAutomationExtraLearning.ToolTip">
         <methods>
+          <include name="getToolTipOfReddifMail"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="loginTest"/>
+          <include name="getToolTipOfMoneyLink"/>
+          <include name="getToolTipOfVideosLink"/>
+          <include name="getToolTipOfBusinessEmailLink"/>
+          <include name="getToolTipOfShoppingLink"/>
         </methods>
-      </class> <!-- screenRecorderCode.ScreenRecord_Rediff -->
+      </class> <!-- moreAboutAutomationExtraLearning.ToolTip -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
