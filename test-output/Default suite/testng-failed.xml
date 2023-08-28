@@ -3,17 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="moreAboutAutomationExtraLearning.ToolTip">
+      <class name="calendarDatePicker.LearningVariousConcepts">
         <methods>
-          <include name="getToolTipOfReddifMail"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="getToolTipOfMoneyLink"/>
-          <include name="getToolTipOfVideosLink"/>
-          <include name="getToolTipOfBusinessEmailLink"/>
-          <include name="getToolTipOfShoppingLink"/>
+          <include name="selectDate"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- moreAboutAutomationExtraLearning.ToolTip -->
+      </class> <!-- calendarDatePicker.LearningVariousConcepts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

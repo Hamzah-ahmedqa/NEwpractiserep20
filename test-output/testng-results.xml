@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-16T18:54:15 EDT" name="Default suite" finished-at="2023-08-16T18:54:33 EDT" duration-ms="18269">
+  <suite started-at="2023-08-28T18:15:26 EDT" name="Default suite" finished-at="2023-08-28T18:15:37 EDT" duration-ms="11739">
     <groups>
     </groups>
-    <test started-at="2023-08-16T18:54:15 EDT" name="Default test" finished-at="2023-08-16T18:54:33 EDT" duration-ms="18269">
-      <class name="moreAboutAutomationExtraLearning.FirefoxProfilingLearning">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:moreAboutAutomationExtraLearning.FirefoxProfilingLearning@18271936]" started-at="2023-08-16T18:54:15 EDT" name="setUp" finished-at="2023-08-16T18:54:30 EDT" duration-ms="14761" status="PASS">
+    <test started-at="2023-08-28T18:15:26 EDT" name="Default test" finished-at="2023-08-28T18:15:37 EDT" duration-ms="11739">
+      <class name="calendarDatePicker.LearningVariousConcepts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:calendarDatePicker.LearningVariousConcepts@8458f04]" started-at="2023-08-28T18:15:26 EDT" name="setUp" finished-at="2023-08-28T18:15:37 EDT" duration-ms="10833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCurrentTitleAndUrl()[pri:0, instance:moreAboutAutomationExtraLearning.FirefoxProfilingLearning@18271936]" started-at="2023-08-16T18:54:30 EDT" name="verifyCurrentTitleAndUrl" finished-at="2023-08-16T18:54:32 EDT" duration-ms="2038" status="PASS">
+        <test-method signature="usingJavaScriptExecutor()[pri:2, instance:calendarDatePicker.LearningVariousConcepts@8458f04]" started-at="2023-08-28T18:15:37 EDT" name="usingJavaScriptExecutor" finished-at="2023-08-28T18:15:37 EDT" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCurrentTitleAndUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:moreAboutAutomationExtraLearning.FirefoxProfilingLearning@18271936]" started-at="2023-08-16T18:54:32 EDT" name="tearDown" finished-at="2023-08-16T18:54:33 EDT" duration-ms="1395" status="PASS">
+        </test-method> <!-- usingJavaScriptExecutor -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:calendarDatePicker.LearningVariousConcepts@8458f04]" started-at="2023-08-28T18:15:37 EDT" name="tearDown" finished-at="2023-08-28T18:15:37 EDT" duration-ms="694" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- moreAboutAutomationExtraLearning.FirefoxProfilingLearning -->
+      </class> <!-- calendarDatePicker.LearningVariousConcepts -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
